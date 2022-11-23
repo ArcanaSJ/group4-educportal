@@ -29,7 +29,7 @@ body {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px;
+    padding: 30px;
     border-radius: 5px;
 } 
 .logo {
@@ -71,7 +71,7 @@ body {
     color: white;
     font-size: 16px;
 }
-.mother input[type="submit"]{
+.mother input[type="button"]{
     border: none ;
     outline: none;
     height: 40px;
@@ -80,7 +80,7 @@ body {
     font-size: 18px;
     border-radius: 20px;
 }
-.mother input[type="submit"]:hover {
+.mother input[type="button"]:hover {
     cursor: pointer;
     background: gray;
     color: black;
