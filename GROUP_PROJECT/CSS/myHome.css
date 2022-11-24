@@ -1,0 +1,190 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Fonts/Montserrat-Regular.ttf);
+}
+
+* { 
+    font-family: Montserrat; 
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.outline {
+    border-width: 0;
+    height: 20px;
+    background-color: #023E8A;
+}
+
+.navigation {
+    margin-top: -8px;
+    height: 130px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    width: 100px;
+    height: auto;
+}
+
+.navigation p {
+    font-size: large;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+}
+
+nav {
+    position: absolute;
+    margin: 35px auto 0;
+    left: 510px;
+    width: 530px;
+    height: 50px;
+    background: #023E8A;
+    border-radius: 50px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+/* ANIMATION */
+
+.schoologo {
+    animation: transitionIn 3.75s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav a {
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    line-height: 50px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    transition: all .5s linear;
+}
+
+a:hover {
+    color:#023E8A;
+}
+
+nav .animation{
+	position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: -20px;
+	height: 80%;
+	/* height: 5px; */
+	top: 0;
+	/* bottom: 0; */
+	z-index: 0;
+	background: #ffffff;
+	border-radius: 55px;
+	transition: all .5s ease 0s;
+}
+nav a:nth-child(1){
+	width: 90px;
+    transition: all .5s linear;
+}
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 80px;
+	left: 0;
+}
+nav a:nth-child(2){
+	width: 80px;
+}
+nav a:nth-child(2):hover~.animation{
+	width: 90px;
+	left: 80px;
+}
+nav a:nth-child(3){
+	width: 130px;
+}
+nav a:nth-child(3):hover~.animation{
+	width: 135px;
+	left: 160px;
+}
+nav a:nth-child(4){
+	width: 120px;
+}
+nav a:nth-child(4):hover~.animation{
+	width: 120px;
+	left: 295px;
+}
+nav a:nth-child(5){
+	width: 100px;
+}
+nav a:nth-child(5):hover~.animation{
+	width: 110px;
+	left: 410px;
+}
+
+/* USERLOG */
+
+.userlog {
+    position: absolute;
+    border-radius: 50px;
+    top: 40px;
+    right: 0;
+    margin-top: 17px;
+    margin-right: 50px;
+    width: 60px;
+    height: auto;
+}
+
+.logout {
+    filter: invert(9%) sepia(30%) saturate(5280%) hue-rotate(308deg) brightness(62%) contrast(106%);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 35px;
+    margin-right: 120px;
+    width: 30px;
+    height: auto;
+}
+
+/* CONTENT HERE */
+
+.school-img {
+    object-fit: fill;
+    position: absolute;
+    width: 99%;
+    height: 100%;
+    z-index: -3;
+}
+
+.bg-gradient {
+    position: absolute;
+    height: 100vh;
+    width: 99%;
+    background: linear-gradient(180deg, rgba(47, 105, 179, 0) 0%, #023E8A 100%);
+}
+
+.bg-gradient{
+    position: absolute;
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.bg-gradient img {
+    position: absolute;
+    width: 350px;
+}
