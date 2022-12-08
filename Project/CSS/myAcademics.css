@@ -16,6 +16,7 @@
 }
 
 html {
+    background-color:#001f48;
     overflow-x: hidden;
 }
 
@@ -251,318 +252,198 @@ body {
 }
 
 /* CONTENT HERE */
-:root {
-    --Font1:  Arial, Helvetica, sans-serif;
-
-    --D_Blue: #023E8A;
-    --White: #FFFFFF;
+.container{
+    position: absolute;
+    width: 550px;
+    height: auto;
+    left: 105px;
+    top: 70px;
+    margin-left: 190px;
+}
+.mother{
+    background-color: #023E8A;
+    height: 300px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.color-overlay{
+    width: 100%;
+    height: 30%;
+    opacity: .6;
+    position: absolute;
+    margin-top: 350px;
+}
+.cont{ 
+    background-image: url(../Images/myAcademics/elementary.png);
+   height: 500px;
+   width: 100%;
+   display: flex; 
+   position: relative; 
+   background-repeat: no-repeat;
+   margin-right: 100px; 
+   align-items: center;
+   background-position: center;
+   margin-bottom: 20px;
+   background-size: cover;
 }
 
-/* 
-=============================================
-index.html
-=============================================
-*/
-
-h1,
-h2,
-p,
-ol,
-label {
+.cont h3{
     -webkit-user-drag: none;
-        user-select: none;
+    user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+
+    position: absolute;
+    top: 405px;
+    margin-left: 50px;
+    font-size: xx-large; 
+    z-index: 5;
+    color: white;
 }
-
-/*
-Enrollment Button
-*/
-
-.enrollment {
-    text-transform: uppercase;
-
-    font-size: 25px;
-
-    margin-top: 40px;
-
-    color: var(--D_Blue);
-
-    text-align: center;
+.cont button{
+    margin-left: 90%;
+    margin-top: 65px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: #023E8A;
+    border: none;
+    background: white;
 }
-
-form > button {
-    text-transform: uppercase;
-
-    font-size: 25px;
-
-    background-color: var(--White);
-    color: var(--D_Blue);
-
-    padding: 15px 30px;
-
-    border-style: solid;
-    border-radius: 100px;
-    border-color: var(--D_Blue);
-    border-width: 3px;
-
-    position: relative;
-    bottom: 0px;
-
-    transition: 0.3s;
+.color{
+    width: 100%;
+    height: 30%;
+    opacity: .6;
+    position: absolute;
+    margin-top: 350px;
 }
-
-form > button:hover {
-    background-color: var(--D_Blue);
-    
-    color: var(--White);
-
-    position: relative;
-    bottom: 3px;
-
-    box-shadow: 0px 2px 5px var(--D_Blue);
+.cont1{ 
+    background-image:url(../Images/myAcademics/jhs.jpg);
+   height: 500px;
+   width: 100%;
+   display: flex; 
+   position: relative; 
+   background-repeat: no-repeat;
+   margin-right: 100px; 
+   align-items: center;
+   background-position: center;
+   margin-bottom: 20px;
+   background-size: cover;
 }
+.cont1 h3{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
-/*
-Windows
-*/
-
-.pg-1 {
-    font-size: 20px;
-
-    background-color: var(--D_Blue);
-    color: var(--White);
-
-    padding: 10px 30px;
-    
-    width: 250px;
-    
-    margin-top: 10px;
-
-    border-radius: 100px;
+    position: absolute;
+    top: 405px;
+    margin-left: 50px;
+    font-size: xx-large; 
+    z-index: 5;
+    color: white;
 }
-
-
-ol {
-    color: var(--D_Blue);
-
-    padding: 35px 70px 70px;
-
-    margin-top: -20px;
-
-    width: 400px;
-
-    border-style: dashed;
-    border-color: var(--D_Blue);
-    border-radius: 30px;
+.cont1 button{
+    margin-left: 90%;
+    margin-top: 65px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: #001939;
+    border: none;
+    background: white;
 }
-
-/*
-Enrollment Section
-*/
-
-.req {
-    margin: 40px 200px;
-
-    border-style: solid;
-    border-color: var(--D_Blue);
-    border-radius: 50px;
-    
-    padding: 20px 40px;
+.color1{
+    width: 100%;
+    height: 30%;
+    opacity: .6;
+    position: absolute;
+    margin-top: 350px;
 }
-
-.req > h2 {
-    text-transform: uppercase;
-    
-    font-size: 30px;
-
-    color: var(--White);
-
-    background-color: var(--D_Blue);
-
-    border-radius: 30px 30px 0px 0px;
-
-    padding: 35px 80px;
-
-    text-align: center;
-    margin-top: -23px;
-    margin-left: -43px;
-    
-    width: 949px;
-    height: auto;
+.cont2{ 
+    background-image:url(../Images/myAcademics/shs.avif);
+   height: 500px;
+   width: 100%;
+   display: flex; 
+   position: relative; 
+   background-repeat: no-repeat;
+   margin-right: 100px; 
+   align-items: center;
+   background-position: center;
+   margin-bottom: 20px;
+   background-size: cover;
 }
+.cont2 h3{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
-.online {
-    float: left;
-
-    margin-top: -598px;
-
-    position: relative;
-    left: 455px;
+    position: absolute;
+    top: 405px;
+    margin-left: 50px;
+    font-size: xx-large; 
+    z-index: 5;
+    color: white;
 }
-
-.online > ol {
-    height: 458px;
+.cont2 button{
+    margin-left: 90%;
+    margin-top: 65px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: #023E8A;
+    border: none;
+    background: white;
 }
-
-/*
-Payment
-*/
-
-.pay {
-    background-color: var(--D_Blue);
-    background-image: linear-gradient(to top, var(--D_Blue) 10%, var(--White) 40%);
-
-    color: var(--D_Blue);
-
-    padding: 100px 50px;
-    padding-bottom: 100px;
-
+.color2{
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(180deg, rgba(47, 105, 179, 0) 0%, #023E8A 100%);
+    opacity: .6;
+    position: absolute;
+    margin-top: 350px;
 }
-
-.pay > h1 {
-    text-transform: uppercase;
-
-    font-size: 50px;
-
-    padding-left: 80px;
-}
-
-.pay > button {
-    background-repeat: no-repeat;
-    background-size: contain;
-
-    background-color: var(--White);
-
-    padding: 50px 100px;
-
-    margin: 0px 2px;
-
-    border-style: solid;
-    border-radius: 30px;
-    border-color: var(--White);
-    border-width: 50px;
-
-    transition: 0.3s;
-}
-
-.pay > button:hover {
-    position: relative;
-    bottom: 3px;
-
-    box-shadow: 0px 2px 5px var(--D_Blue);
-}
-
-.pay > #opt1 {
-    background-image: url(../Images/myAcademics/paypal-logo.png);
-}
-
-.pay > #opt2 {
-    background-image: url(../Images/myAcademics/visa-logo.png);
-}
-
-.pay > #opt3 {
-    background-image: url(../Images/myAcademics/MasterCard_Logo.png);
-}
-
-.pay > #opt4 {
-    background-image: url(../Images/myAcademics/cebuana-logo.png);
-}
-
-/* 
-=============================================
-enroll.html
-=============================================
-*/
-
-#enrollment {
-    background:#FFFFFF;
-    background-image: url("img/online-class.jpg");
-
-    background-repeat: no-repeat;
+.cont3{ 
+    background-image:url(../Images/myAcademics/college.jpg);
+   height: 500px;
+   width: 100%;
+   display: flex; 
+   position: relative; 
+   background-repeat: no-repeat;
+   margin-right: 100px; 
+   align-items: center;
+   background-position: center;
     background-size: cover;
 }
+.cont3 h3{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 
-label {
-    font-size: 15px;
+    position: absolute;
+    top: 405px;
+    margin-left: 50px;
+    font-size: xx-large; 
+    z-index: 5;
+    color: white;
 }
-
-.enroll > .bio > input {
-    font-family: var(--Font1);
-
-    border: 1px solid var(--D_Blue);
-
-    width: 360px;
-
-    padding: 10px;
-
-    display: block;
-
-    align-items: center;
+.cont3 button{
+    margin-left: 90%;
+    margin-top: 65px;
+    width: 70px;
+    height: 40px;
+    border-radius: 20px;
+    color: #023E8A;
+    border: none;
+    background: white;
 }
-
-.enroll {
-    background-color:var(--White);
-
-    border-style: solid;
-    border-color: var(--D_Blue);
-    border-radius: 30px;
-
-    padding: 20px;
-
-    margin: 50px 450px;
-
-    box-shadow: 0px 0px 5px black;
-}
-
-.enroll > .bio > h1 {
-    background-color:  var(--D_Blue);
-    color: var(--White);
-
-    margin: -23px -23px 20px -23px;
-
-    border-radius: 30px 30px 0px 0px;
-
-    padding: 20px 40px;
-
-    height: 20px;
-}
-
-.register,
-.login {
-    border-radius: 0px;
-
-    background-color: var(--D_Blue);
-
-    color: var(--White);
-
-    margin: 10px 0px;
-}
-
-.register {
-    padding: 5px 124px;
-}
-
-.login {
-    padding: 5px 150px;
-}
-
-.register:hover,
-.login:hover {
-    position: relative;
-    bottom: 0px;
-
-    box-shadow: 0px 0px 5px var(--D_Blue);
-}
-
-/* 
-=============================================
-payment.html
-=============================================
-*/
-
-
 /* CONTENT ENDS HERE */
 
 
@@ -577,7 +458,7 @@ payment.html
 
 .contacts {
     margin-top: -8px;
-    height: 170px;
+    height: 190px;
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -602,7 +483,7 @@ payment.html
     user-select: none;
 
     margin-left: 40px;
-    margin-top: -90px;
+    margin-top: -70px;
     display: flex;
     text-align: left;
     justify-content: left;
@@ -617,7 +498,7 @@ payment.html
     user-select: none;
 
     margin-right: 40px;
-    margin-top: -50px;
+    margin-top: -60px;
     display: flex;
     text-align: right;
     justify-content: right;
@@ -632,7 +513,8 @@ payment.html
     -ms-user-select: none;
 
     display: block;
-    margin-top: 35px;
+    margin-top: 15px;
+    padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
