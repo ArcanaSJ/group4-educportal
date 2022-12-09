@@ -251,43 +251,35 @@ body {
 }
 
 /* CONTENT HERE */
-:root {
-    --Font1:  Arial, Helvetica, sans-serif;
 
-    --D_Blue: #023E8A;
-    --White: #FFFFFF;
-}
 
 /* 
-=============================================
-index.html
-=============================================
+#==========================================================================================
+#   index.html
+#==========================================================================================
 */
 
+/*
 h1,
 h2,
 p,
 ol,
 label {
-    -webkit-user-drag: none;
-        user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
+    font-family: var(--Font1);
 
-/*
-Enrollment Button
-*/
+    user-select: none;
+}*/
+
+/* Enrollment Button */
 
 .enrollment {
     text-transform: uppercase;
 
     font-size: 25px;
 
-    margin-top: 40px;
+    margin-top: -30px;
 
-    color: var(--D_Blue);
+    color: #023E8A;
 
     text-align: center;
 }
@@ -297,14 +289,14 @@ form > button {
 
     font-size: 25px;
 
-    background-color: var(--White);
-    color: var(--D_Blue);
+    background-color: #FFFFFF;
+    color: #023E8A;
 
     padding: 15px 30px;
 
     border-style: solid;
+    border-color: #023E8A;
     border-radius: 100px;
-    border-color: var(--D_Blue);
     border-width: 3px;
 
     position: relative;
@@ -314,111 +306,140 @@ form > button {
 }
 
 form > button:hover {
-    background-color: var(--D_Blue);
+    background-color: #023E8A;
     
-    color: var(--White);
+    color: #FFFFFF;
 
     position: relative;
     bottom: 3px;
 
-    box-shadow: 0px 2px 5px var(--D_Blue);
-}
-
-/*
-Windows
-*/
-
-.pg-1 {
-    font-size: 20px;
-
-    background-color: var(--D_Blue);
-    color: var(--White);
-
-    padding: 10px 30px;
-    
-    width: 250px;
-    
-    margin-top: 10px;
-
-    border-radius: 100px;
+    box-shadow: 0px 2px 5px #023E8A;
 }
 
 
-ol {
-    color: var(--D_Blue);
 
-    padding: 35px 70px 70px;
-
-    margin-top: -20px;
-
-    width: 400px;
-
-    border-style: dashed;
-    border-color: var(--D_Blue);
-    border-radius: 30px;
-}
-
-/*
-Enrollment Section
-*/
-
-.req {
-    margin: 40px 200px;
-
-    border-style: solid;
-    border-color: var(--D_Blue);
-    border-radius: 50px;
-    
-    padding: 20px 40px;
-}
+/* Enrollment Section */
 
 .req > h2 {
     text-transform: uppercase;
     
     font-size: 30px;
 
-    color: var(--White);
+    color: #FFFFFF;
 
-    background-color: var(--D_Blue);
+    background-color: #023E8A;
 
     border-radius: 30px 30px 0px 0px;
 
-    padding: 35px 80px;
+    padding: 20px 80px;
 
-    text-align: center;
-    margin-top: -23px;
-    margin-left: -43px;
+    margin: -15px -43px;
     
-    width: 949px;
-    height: auto;
+    width: 1050px;
+    height: 70px;
 }
+
+
+.req {
+    margin: 40px 150px;
+
+    border-style: solid;
+    border-color: #023E8A;
+    border-radius: 50px;
+    
+    padding: 10px 40px;
+}
+
+.req > p {
+    font-size: 20px;
+
+    background-color: #023E8A;
+    color: #FFFFFF;
+
+    padding: 10px 30px;
+    
+    width: 250px;
+    
+    margin-top: 20px;
+
+    border-radius: 100px;
+}
+
+.req > ol {
+    color: #023E8A;
+
+    padding: 40px 70px;
+
+    margin-top: -35px;
+
+    width: 450px;
+
+    border-style: dashed;
+    border-color: #023E8A;
+    border-radius: 30px;
+}
+
 
 .online {
     float: left;
 
-    margin-top: -598px;
+    margin-top: -675px;
 
     position: relative;
-    left: 455px;
+    left: 475px;
+}
+
+.online > p {
+    font-size: 20px;
+
+    background-color: #023E8A;
+    color: #FFFFFF;
+
+    padding: 10px 30px;
+    
+    width: 250px;
+    
+    margin-top: 50px;
+
+    border-radius: 100px;
 }
 
 .online > ol {
-    height: 458px;
+    color: #023E8A;
+
+    height: 606px;
+    width: 480px;
+
+    margin-top: -25px;
+
+    padding: 40px 70px 0px;
+
+    border-style: dashed;
+    border-color: #023E8A;
+    border-radius: 30px;
 }
 
-/*
-Payment
-*/
+
+
+/* Payment Options */
 
 .pay {
-    background-color: var(--D_Blue);
-    background: linear-gradient(180deg, rgba(47, 105, 179, 0) 0%, #023E8A 100%);
-
-    color: var(--D_Blue);
+    color: #023E8A;
 
     padding: 100px 50px;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 
+    margin: 50px 0px;
+}
+
+.pay > hr {
+    display: block;
+
+    border-color: #023E8A;
+    border-width: 2px;
+    border-style:solid;
+
+    margin: 20px -50px;
 }
 
 .pay > h1 {
@@ -433,7 +454,7 @@ Payment
     background-repeat: no-repeat;
     background-size: contain;
 
-    background-color: var(--White);
+    background-color: #FFFFFF;
 
     padding: 50px 100px;
 
@@ -441,7 +462,7 @@ Payment
 
     border-style: solid;
     border-radius: 30px;
-    border-color: var(--White);
+    border-color: #FFFFFF;
     border-width: 50px;
 
     transition: 0.3s;
@@ -451,33 +472,56 @@ Payment
     position: relative;
     bottom: 3px;
 
-    box-shadow: 0px 2px 5px var(--D_Blue);
+    box-shadow: 0px 2px 5px #023E8A;
 }
 
 .pay > #opt1 {
-    background-image: url(../Images/myAdmission/paypal-logo.png);
+    background-image: url("../Images/myAdmission/paypal-logo.png");
 }
 
 .pay > #opt2 {
-    background-image: url(../Images/myAdmission/visa-logo.png);
+    background-image: url("../Images/myAdmission/visa-logo.png");
 }
 
 .pay > #opt3 {
-    background-image: url(../Images/myAdmission/MasterCard_Logo.png);
+    background-image: url("../Images/myAdmission/MasterCard_Logo.png");
 }
 
 .pay > #opt4 {
-    background-image: url(../Images/myAdmission/cebuana-logo.png);
+    background-image: url("../Images/myAdmission/cebuana-logo.png");
+}
+
+
+
+/* Motto */
+
+.motto {
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+
+    background-color: aqua;
+    background-image: url("../Images/myAdmission/collegehatthrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 550px;
+
+    margin-top: -100px;
+
+    padding: 150px 0px;
 }
 
 /* 
-=============================================
-enroll.html
-=============================================
+#==========================================================================================
+#   enroll.html
+#==========================================================================================
 */
 
 #enrollment {
-    background-color: #FFFFFF;
+    background:#FFFFFF;
+    background-image: url("../Images/myAdmission/online-class.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -485,14 +529,27 @@ enroll.html
 
 label {
     font-size: 15px;
+
+    color: #023E8A;
 }
 
-.enroll > .bio > input {
+.enroll > .inputs > h1 {
+    background-color:  #023E8A;
+    color: #FFFFFF;
+
+    margin: -23px -23px 20px -23px;
+
+    border-radius: 30px 30px 0px 0px;
+
+    padding: 10px 40px;
+}
+
+.enroll > .inputs > input {
     font-family: var(--Font1);
 
-    border: 1px solid var(--D_Blue);
+    border: 1px solid #023E8A;
 
-    width: 370px;
+    width: 400px;
 
     padding: 10px;
 
@@ -502,10 +559,10 @@ label {
 }
 
 .enroll {
-    background-color:var(--White);
+    background-color:#FFFFFF;
 
     border-style: solid;
-    border-color: var(--D_Blue);
+    border-color: #023E8A;
     border-radius: 30px;
 
     padding: 20px;
@@ -515,30 +572,22 @@ label {
     box-shadow: 0px 0px 5px black;
 }
 
-.enroll > .bio > h1 {
-    background-color:  var(--D_Blue);
-    color: var(--White);
-
-    margin: -23px -23px 20px -23px;
-
-    border-radius: 30px 30px 0px 0px;
-
-    padding: 20px 40px;
-
-}
 
 .register,
 .login {
     border-radius: 0px;
 
-    background-color: var(--D_Blue);
+    background-color: #023E8A;
 
-    color: var(--White);
+    color: #FFFFFF;
 
+    margin: 10px 0px;
+
+    width: 400px;
 }
 
 .register {
-    padding: 5px 128px;
+    padding: 5px 124px;
 }
 
 .login {
@@ -550,14 +599,15 @@ label {
     position: relative;
     bottom: 0px;
 
-    box-shadow: 0px 0px 5px var(--D_Blue);
+    box-shadow: 0px 0px 5px #023E8A;
 }
 
 /* 
-=============================================
-payment.html
-=============================================
+#==========================================================================================
+#   payment.html
+#==========================================================================================
 */
+
 
 
 /* CONTENT ENDS HERE */
