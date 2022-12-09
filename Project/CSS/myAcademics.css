@@ -284,7 +284,6 @@ body {
    margin-right: 100px; 
    align-items: center;
    background-position: center;
-   margin-bottom: 20px;
    background-size: cover;
 }
 
@@ -332,7 +331,6 @@ body {
    margin-right: 100px; 
    align-items: center;
    background-position: center;
-   margin-bottom: 20px;
    background-size: cover;
 }
 .cont1 h3{
@@ -379,7 +377,6 @@ body {
    margin-right: 100px; 
    align-items: center;
    background-position: center;
-   margin-bottom: 20px;
    background-size: cover;
 }
 .cont2 h3{
@@ -423,6 +420,7 @@ body {
    display: flex; 
    position: relative; 
    background-repeat: no-repeat;
+   margin-bottom: -20px;
    margin-right: 100px; 
    align-items: center;
    background-position: center;
