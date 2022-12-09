@@ -265,7 +265,7 @@ form > button:hover {
     background-color: #023E8A;
     border-radius: 30px 30px 0px 0px;
     padding: 20px 20px;
-    margin: -22px -23px;
+    margin: -22px -21px;
     
     text-align: center;
     width: 1030px;
@@ -400,7 +400,6 @@ form > button:hover {
     background-image: url("../Images/myAdmission/collegehatthrow.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
     margin-top: 50px;
     padding: 150px 0px;
 }
