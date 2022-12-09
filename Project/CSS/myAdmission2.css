@@ -313,55 +313,14 @@ form > button:hover {
     position: relative;
     bottom: 3px;
 
-    box-shadow: 0px 2px 5px #023E8A;
+    box-shadow: 0px 2px 5px var(--D_Blue);
 }
 
+/*
+Windows
+*/
 
-
-/* Enrollment Section */
-
-.req > h2 {
-    text-transform: uppercase;
-    
-    font-size: 30px;
-
-    color: #FFFFFF;
-
-    background-color: #023E8A;
-
-    border-radius: 30px 30px 0px 0px;
-
-    padding: 20px 20px;
-
-    margin: -22px -23px;
-    
-    text-align: center;
-    width: 1030px;
-    height: 70px;
-}
-
-
-.req {
-    width: 1035px;
-    height: auto;
-    color: white;
-
-    padding: 20px;
-
-    align-items: center;
-
-    border-style: solid;
-    border-color: #023E8A;
-    border-radius: 35px;
-}
-
-.req1 {
-    margin: 90px;
-    display: flex;
-    justify-content: center;
-}
-
-.req > p {
+.pg-1 {
     font-size: 20px;
 
     background-color: #023E8A;
@@ -371,7 +330,7 @@ form > button:hover {
     
     width: 250px;
     
-    margin-top: 40px;
+    margin-top: 10px;
 
     border-radius: 100px;
 }
@@ -435,22 +394,13 @@ form > button:hover {
 /* Payment Options */
 
 .pay {
-    color: #023E8A;
-    margin: 50px 0px;
-}
+    background-color: var(--D_Blue);
+    background: linear-gradient(180deg, rgba(47, 105, 179, 0) 0%, #023E8A 100%);
 
-.paybtn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    color: var(--D_Blue);
 
-.pay > hr {
-    display: block;
-
-    border-color: #023E8A;
-    border-width: 2px;
-    border-style:solid;
+    padding: 100px 50px;
+    padding-bottom: 100px;
 
     margin: 20px -50px;
 }
@@ -487,45 +437,23 @@ form > button:hover {
     position: relative;
     bottom: 3px;
 
-    box-shadow: 0px 2px 5px #023E8A;
+    box-shadow: 0px 2px 5px var(--D_Blue);
 }
 
-.paybtn > #opt1 {
-    background-image: url("../Images/myAdmission/paypal-logo.png");
+.pay > #opt1 {
+    background-image: url(../Images/myAdmission/paypal-logo.png);
 }
 
-.paybtn > #opt2 {
-    background-image: url("../Images/myAdmission/visa-logo.png");
+.pay > #opt2 {
+    background-image: url(../Images/myAdmission/visa-logo.png);
 }
 
-.paybtn > #opt3 {
-    background-image: url("../Images/myAdmission/MasterCard_Logo.png");
+.pay > #opt3 {
+    background-image: url(../Images/myAdmission/MasterCard_Logo.png);
 }
 
-.paybtn > #opt4 {
-    background-image: url("../Images/myAdmission/cebuana-logo.png");
-}
-
-
-
-/* Motto */
-
-.motto {
-    font-size: larger;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-
-    background-color: aqua;
-    background-image: url("../Images/myAdmission/collegehatthrow.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    height: 550px;
-
-    margin-top: 50px;
-
-    padding: 150px 0px;
+.pay > #opt4 {
+    background-image: url(../Images/myAdmission/cebuana-logo.png);
 }
 
 /* 
